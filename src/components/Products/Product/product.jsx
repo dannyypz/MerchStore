@@ -20,7 +20,7 @@ const Product = ({ product }) => {
                 </div>
                 <Typography variant='body2' color='textSecondary'>{product.description}</Typography>
             </CardContent>
-            <CardActions disableSpacing className={classes.cardActions}>
+            <CardActions disableSpacing='false' className={classes.cardActions}>
                 <IconButton aria-label="Add to Cart">
                     <AddShoppingCart/>
                 </IconButton>
